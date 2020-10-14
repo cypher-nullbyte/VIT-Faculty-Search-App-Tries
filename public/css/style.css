@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-weight: 700;
+}
+
+.main-container{
+  display:flex;
+  margin-top:25vh;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  
+}
+.search-item  .secondary-content .material-icons{
+  cursor: pointer;
+}
+
+.collection{
+  border: 0px;
+}
+#search-input{
+  text-transform: uppercase;
+}
+
+.search-error p{
+  margin: 0.5rem;
+}
+
+.icon{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:1rem;
+  width: 1rem;
+  margin: 0 1rem;
+}
+
+.name-search #search-input, .name-search label[for="search-input"]{
+  margin-left: 4rem;
+}
+
+.whatsapp-icon{
+  background-image: url("../icons/whatsapp.svg") ;
+}
+
+.phone-icon{
+  background-image: url("../icons/phone.svg")
+}
+#search-input{
+  margin: 8px 0;
+}
+#search-form,.name-search{
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px){
+  .modal {
+    width: 95%;
+  }
+}
+
+.modal{
+  max-height: 80vh;
+}
